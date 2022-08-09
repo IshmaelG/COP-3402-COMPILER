@@ -1,0 +1,17 @@
+const a := 3;
+var x, y;
+procedure B;
+	var a;
+	begin
+		a := 9;
+		a /= 3;
+		x *= a;
+	end;
+begin
+	y := a;
+	y *= 8;
+	y += 1;
+	y /= 5;
+	x -= y;
+	call B;
+end.
